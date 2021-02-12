@@ -1,5 +1,5 @@
 {
-    "name": "SongBot",
+    "name": "AlexaSongBot",
     "description": "Grabs song from yt and sends it to telegram",
     "env": {
         "API_ID": {
@@ -16,7 +16,7 @@
         },
         "OWNER_ID": {
             "description": "Your telegram user id.",
-            "value": true
+            "required": true
         }
     },
     "buildpacks": [
