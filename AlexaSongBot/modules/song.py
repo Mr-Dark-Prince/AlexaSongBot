@@ -5,9 +5,9 @@ from pytube import YouTube
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from youtubesearchpython import VideosSearch
-from Bot.utils import ignore_blacklisted_users, get_arg
-from Bot import app, LOGGER
-from Bot.sql.chat_sql import add_chat_to_db
+from AlexaSongBot.mrdarkprince import ignore_blacklisted_users, get_arg
+from AlexaSongBot import app, LOGGER
+from AlexaSongBot.sql.chat_sql import add_chat_to_db
 
 
 def yt_search(song):
@@ -30,10 +30,10 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("Enter a song name. Check /help")
         return ""
-    status = await message.reply("Processing...")
+    status = await message.reply("🔎Searching... Please wait some time ⏳️ © @Mr_Dark_Prince ")
     video_link = yt_search(args)
     if not video_link:
-        await status.edit("Song not found.")
+        await status.edit("😔Song not found.")
         return ""
     yt = YouTube(video_link)
     audio = yt.streams.filter(only_audio=True).first()
