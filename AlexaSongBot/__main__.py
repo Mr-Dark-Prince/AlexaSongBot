@@ -1,17 +1,19 @@
+# © @Mr_Dark_Prince
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from Bot.modules import *
+from AlexaSongBot.modules import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
-from Bot import app, LOGGER
-from Bot.utils import ignore_blacklisted_users
-from Bot.sql.chat_sql import add_chat_to_db
+from AlexaSongBot import app, LOGGER
+from AlexaSongBot.utils import ignore_blacklisted_users
+from AlexaSongBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
+I'm Alexa 🤗
 Just send me the song name you want to download.
-Eg: ```/song paid my dues```
+Eg: ```/song Faded Alan Walker```
 """
 
 owner_help = """
@@ -33,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="owner", url="https://t.me/nk_guy"
+                        text="Owner", url="https://t.me/Mr_Dark_Prince"
                     )
                 ]
             ]
@@ -52,7 +54,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(919262589)
+OWNER_ID.append(1587091205)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
