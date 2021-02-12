@@ -2,7 +2,7 @@ import threading
 
 from pyrogram.filters import chat
 
-from Bot.sql import BASE, SESSION
+from AlexaSongBot.sql import BASE, SESSION
 from sqlalchemy import Column, String, UnicodeText
 
 
