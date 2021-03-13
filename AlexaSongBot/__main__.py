@@ -48,7 +48,7 @@ async def start(client, message):
 
 @app.on_message(filters.create(ignore_blacklisted_users) & filters.command("help"))
 async def help(client, message):
-    if message.from_user["id"] == OWNER_ID:
+    if message.from_user["id"] in OWNER_ID:
         await message.reply(owner_help)
         return ""
     text = "Syntax: /song song name"
