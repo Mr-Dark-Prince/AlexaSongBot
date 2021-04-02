@@ -1,6 +1,9 @@
 # Alexa Song Bot
 ## Fastest Mp3 downloader
-![logo](https://telegra.ph/file/92286679d79692b26a2a7.jpg)
+<p align="center">
+  <img src="https://media.giphy.com/media/aRsdC3xpNBFxWel7JU/giphy.gif">
+</p>
+
 Reach me on Telegram [ALEXA 📻](https://t.me/alexasongbot)
 
 ## How To Host
@@ -9,4 +12,4 @@ The easiest way to deploy this Song Bot
 
 
 
-https://media.giphy.com/media/aRsdC3xpNBFxWel7JU/giphy.gif
+
