@@ -4,7 +4,6 @@
   <img src="https://media.giphy.com/media/aRsdC3xpNBFxWel7JU/giphy.gif">
 </p>
 
-Reach me on Telegram [ALEXA 📻](https://t.me/alexasongbot)
 
 ## How To Host
 The easiest way to deploy this Song Bot
