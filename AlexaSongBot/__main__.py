@@ -1,4 +1,4 @@
-# © @Mr_Dark_Prince
+# © @WerabliAnlar
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from AlexaSongBot.modules import *
@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="🔳 Source Code 🔳", url='
                     )
                 ]
             ]
