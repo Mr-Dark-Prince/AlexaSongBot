@@ -1,5 +1,5 @@
 {
-    "name": "AlexaSongBot",
+    "name": "ASOsongbot",
     "description": "Grabs song from yt and sends it to telegram",
     "env": {
         "API_ID": {
