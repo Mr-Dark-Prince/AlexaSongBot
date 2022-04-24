@@ -1,4 +1,4 @@
-# © @Mr_Dark_Prince
+# © @Mister_Dark_Prince
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from AlexaSongBot.modules import *
